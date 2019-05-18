@@ -1,0 +1,27 @@
+{
+
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  },
+  "name": "minimal",
+  "description": "[Demo the Theme](http://orderedlist.github.com/minimal/)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alaboudi1/minimal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alaboudi1/minimal/issues"
+  },
+  "homepage": "https://github.com/Alaboudi1/minimal#readme"
+}
