@@ -302,3 +302,9 @@ ul.timeline > li:first-child::before {
   border: 3px solid #777;
  
 }
+hr {
+  border: 0;
+  background: #adadad;
+  height: 2px;
+  margin: 0 0 20px;
+}

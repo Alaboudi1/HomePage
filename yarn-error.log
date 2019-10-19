@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/bin/node /home/abdulaziz/.yarn/bin/yarn.js
+
+PATH: 
+  /home/abdulaziz/.cargo/bin:/home/abdulaziz/.deno/bin:/home/abdulaziz/.vscode-server/bin/f06011ac164ae4dc8e753a3fe7f9549844d15e35/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/abdulaziz/.cargo/bin:/home/abdulaziz/.yarn/bin:/home/abdulaziz/.config/yarn/global/node_modules/.bin:/home/abdulaziz/.cargo/bin:/home/abdulaziz/.deno/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/PharosSystems/Core:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/texlive/2018/bin/win32:/mnt/c/Users/alobo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/alobo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/alobo/AppData/Local/Programs/MiKTeX 2.9/miktex/bin/x64/:/mnt/c/Users/alobo/AppData/Local/hyper/app-2.1.0/resources/bin:/mnt/c/Users/alobo/AppData/Roaming/npm:/mnt/c/Users/alobo/AppData/Local/Yarn/bin:/snap/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  11.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile '/home/abdulaziz/.cache/yarn/v4/npm-q-1.5.1-7e32f75b41381291d04611f1bf14109ac00651d7/node_modules/q/README.md' -> '/mnt/d/projects/minimal/node_modules/q/README.md'
+
+npm manifest: 
+  {
+    "devDependencies": {
+      "cssnano": "^4.1.10"
+    },
+    "name": "minimal",
+    "description": "[Demo the Theme](http://orderedlist.github.com/minimal/)",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+      "import-fresh": "^3.0.0",
+      "parse-json": "^4.0.0",
+      "postcss": "^7.0.16"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "parcel index.html",
+      "build": "parcel build index.html --public-url ./"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Alaboudi1/minimal.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Alaboudi1/minimal/issues"
+    },
+    "homepage": "https://github.com/Alaboudi1/minimal#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
