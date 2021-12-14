@@ -1,11 +1,12 @@
 {
   "devDependencies": {
-    "cssnano": "^4.1.10"
+    "cssnano": "^4.1.10",
+    "parcel": "^2.0.1"
+
   },
   "name": "minimal",
   "description": "[Demo the Theme](http://orderedlist.github.com/minimal/)",
   "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
     "import-fresh": "^3.0.0",
     "parse-json": "^4.0.0",
@@ -14,7 +15,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./"
+    "build": "parcel  build index.html  --public-url ./ "
   },
   "repository": {
     "type": "git",
